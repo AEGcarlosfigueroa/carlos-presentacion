@@ -6,6 +6,6 @@
         "urlSite": "https://angelo-fly.vercel.app/",
         "urlCode": "https://github.com/AEGcarlosfigueroa/Game-Project.git",
         "urlServer": "https://github.com/AEGcarlosfigueroa/Game-Server.git",
-        "image": "./src/assets/projectImages/canvas.png"
+        "image": 0
     }
 ]

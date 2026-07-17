@@ -1,7 +1,16 @@
 import data from "./../data/projects.json";
 import ProjectTags from "./ProjectTags";
+import image0 from "./../assets/projectImages/canvas.png"
 
 export default function ProjectCards() {
+    const getImageSrc = (id: number) => {
+        switch (id) {
+            case 0:
+                return image0;
+            default:
+                return image0;
+        }
+    }
     return (
         <div className="flex flex-row w-full">
             {
@@ -9,7 +18,7 @@ export default function ProjectCards() {
                     return (
                         <div className="flex flex-col w-[45%] m-[2.5%] p-6 border rounded-lg" key={index}>
                             <div className="text-xl mb-3">{entry.name}</div>
-                            <img src={entry.image} className="w-full object-contain rounded-lg bg-black h-[30vh]"/>
+                            <img src={getImageSrc(entry.image)} className="w-full object-contain rounded-lg bg-black h-[30vh]"/>
                             {ProjectTags(entry.tags)}
                             <div className="text-md">{entry.desc}</div>
                             <div className="flex flex-row w-full justify-evenly mt-2">
