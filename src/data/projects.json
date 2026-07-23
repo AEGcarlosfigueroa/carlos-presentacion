@@ -1,11 +1,27 @@
 [
     {
         "name": "Angelo Fly",
-        "tags": ["HTML", "CSS", "JS", "PostgreSQL"],
+        "tags": ["Canvas", "JS", "PostgreSQL"],
         "desc": "A short but intense 2D arcade shooter game with 2 levels, a variety of enemies and scores that are uploaded online",
         "urlSite": "https://angelo-fly.vercel.app/",
         "urlCode": "https://github.com/AEGcarlosfigueroa/Game-Project.git",
         "urlServer": "https://github.com/AEGcarlosfigueroa/Game-Server.git",
         "image": 0
+    },
+    {
+        "name": "Test of Kaotika",
+        "tags": ["React", "TS", "MongoDB", "MQTT", "Socket.IO"],
+        "desc": "A mobile app created using React Native, representing an adventure with challenges employing diverse web technologies.",
+        "urlCode": "https://github.com/AEGcarlosfigueroa/testOfKaotika.git",
+        "urlServer": "https://github.com/AEGcarlosfigueroa/testOfKaotika-server.git",
+        "image": 1
+    },
+    {
+        "name": "Old Man House",
+        "tags": ["HTML", "CSS", "Bootstrap"],
+        "desc": "A basic, static website that is focused on the exploration of the house of an old man in a dark fantasy setting.",
+        "urlSite": "https://old-man-house.vercel.app",
+        "urlCode": "https://github.com/AEGcarlosfigueroa/WEBSITE_PROJECT.git",
+        "image": 2
     }
 ]

@@ -1,18 +1,24 @@
 import data from "./../data/projects.json";
 import ProjectTags from "./ProjectTags";
-import image0 from "./../assets/projectImages/canvas.png"
+import image0 from "./../assets/projectImages/canvas.png";
+import image1 from "./../assets/projectImages/image1.png";
+import image2 from "./../assets/projectImages/image2.png";
 
 export default function ProjectCards() {
     const getImageSrc = (id: number) => {
         switch (id) {
             case 0:
                 return image0;
+            case 1:
+                return image1;
+            case 2:
+                return image2;
             default:
                 return image0;
         }
     }
     return (
-        <div className="flex flex-row w-full">
+        <div className="flex flex-row flex-wrap w-full">
             {
                 data.map((entry, index) => {
                     return (
